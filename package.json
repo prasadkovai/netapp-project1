@@ -1,0 +1,43 @@
+{
+  "name": "netapp2-sales",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "prop-types": "latest",
+    "bootstrap": "^3.3.7",
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.31.5",
+    "react-confirm-alert": "^2.4.0",
+    "react-dom": "^16.4.2",
+    "react-loading": "^2.0.3",
+    "react-redux": "^5.0.6",
+    "react-request": "^3.1.2",
+    "react-responsive": "^6.0.1",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.8",
+    "react-scripts": "^1.1.5",
+    "reactstrap": "^7.1.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "rimraf": "^2.6.2",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.78.3",
+    "url-loader": "^0.6.2"
+  },
+  "scripts": {
+    "start": "rimraf ./build && set PORT=3005 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
